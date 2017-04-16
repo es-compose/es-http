@@ -20,9 +20,7 @@ describe("Middleware", function() {
     })
 })
 
-describe("Pipeline", function() {
-    const Pipeline = require('../').Pipeline;
-})
+
 
 describe("HttpError", function() {
     const HttpError = require('../').HttpError;
