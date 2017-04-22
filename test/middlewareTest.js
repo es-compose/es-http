@@ -13,11 +13,6 @@ describe("Middleware", function() {
         middleware.invoke(context, spy);
         expect(spy.called).to.be.true;
     })
-    
-    it("handler() should return a function", function() {
-        let handler = middleware.handler(context);
-        expect(handler).to.be.a('function');
-    })
 })
 
 
